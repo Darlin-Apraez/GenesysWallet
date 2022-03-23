@@ -5,6 +5,7 @@ import {
     StatusBar,
     Appearance,
 } from "react-native";
+import { RFValue } from "react-native-responsive-fontsize";
 
 export const stylesM = StyleSheet.create({
     // =====================================================================
@@ -35,31 +36,31 @@ export const stylesM = StyleSheet.create({
     },
 
     fontSizeSixteen:{
-        fontSize: 16
+        fontSize: RFValue(13)
     },
 
     fontSizeEighteen:{
-        fontSize: 18
+        fontSize: RFValue(15),
     },
     
     fontSizeTwenty:{
-        fontSize: 20
+        fontSize: RFValue(17)
     },
     
     fontSizeTwentyThree:{
-        fontSize: 23
+        fontSize: RFValue(19)
     },
     
     fontSizeTwentyFour:{
-        fontSize: 24
+        fontSize: RFValue(20)
     },
     
     fontSizeTwentySix:{
-        fontSize: 26
+        fontSize: RFValue(22)
     },
     
     fontSizeSeventyFive:{
-        fontSize: 75
+        fontSize: RFValue(63)
     },
 
     backgroundRed:{

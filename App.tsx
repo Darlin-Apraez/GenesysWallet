@@ -10,7 +10,7 @@ export default function App() {
         barStyle={"dark-content"}
       />
       <View style={stylesB.completo}>
-        <Text style={stylesM.textColorBlack}>Bienvenido a Genesys</Text>
+        <Text style={[stylesM.textColorBlack, stylesM. fontSizeSeventyFive]}>Bienvenido a Genesys</Text>
       </View>
     </SafeAreaView>
     
