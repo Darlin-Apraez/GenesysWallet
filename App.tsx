@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {stylesB, stylesL, stylesM, stylesO, stylesS} from '././src/appTheme/styles/styles'
+import { SafeAreaView, Text, View,StatusBar } from 'react-native';
+import React from 'react';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={stylesB.body}>
+      <StatusBar
+        backgroundColor={'#FBF7FF'}
+        barStyle={"dark-content"}
+      />
+      <View style={stylesB.completo}>
+        <Text style={stylesM.textColorBlack}>Bienvenido a Genesys</Text>
+      </View>
+    </SafeAreaView>
+    
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
