@@ -1,11 +1,24 @@
-import { View, Text } from 'react-native'
+import {
+  stylesB,
+  stylesL,
+  stylesM,
+  stylesO,
+  stylesS,
+} from "./../appTheme/styles/styles";
+import { View, Text, SafeAreaView, StatusBar } from 'react-native'
 import React from 'react'
 
 const SendToken = () => {
   return (
-    <View>
-      <Text>SendToken</Text>
-    </View>
+    <SafeAreaView style={stylesB.body}>
+      <StatusBar
+        backgroundColor={'#FBF7FF'}
+        barStyle={"dark-content"}
+      />
+      <View style={stylesB.completo}>
+        <Text style={[stylesM.textColorBlack, stylesM. fontSizeSixteen]}>SendToken</Text>
+      </View>
+    </SafeAreaView>
   )
 }
 
