@@ -12,7 +12,7 @@ export const stylesB = StyleSheet.create({
         height: windowHeight,
         width: windowWidth,
         flex: 1,
-        backgroundColor: "#FBF7FF",
+        backgroundColor: "#000",
     },
     completo: {
         alignItems: "center",
