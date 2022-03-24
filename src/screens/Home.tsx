@@ -5,18 +5,16 @@ import {
   stylesO,
   stylesS,
 } from "./../appTheme/styles/styles";
-import { View, Text, SafeAreaView, StatusBar } from 'react-native'
+import { View, Text, SafeAreaView} from 'react-native'
+import BarStatus from "../components/BarStatus";
 import React from 'react'
 
 const Home = () => {
   return (
     <SafeAreaView style={stylesB.body}>
-      <StatusBar
-        backgroundColor={'#FBF7FF'}
-        barStyle={"dark-content"}
-      />
+      <BarStatus/>
       <View style={stylesB.completo}>
-        <Text style={[stylesM.textColorBlack, stylesM. fontSizeSixteen]}>Home</Text>
+        <Text style={[stylesM.textColorWhite, stylesM. fontSizeSixteen]}>Home</Text>
       </View>
     </SafeAreaView>
   )
