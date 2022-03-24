@@ -1,105 +1,108 @@
 import {
-    StyleSheet,
-    Platform,
-    Dimensions,
-    StatusBar,
-    Appearance,
+  StyleSheet,
+  Platform,
+  Dimensions,
+  StatusBar,
+  Appearance,
 } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
 
 export const stylesM = StyleSheet.create({
-    // =====================================================================
-    // VARIABLES UNITARIAS
-    // =====================================================================
-    textColorWhite:{
-        color:"white",
-    },
+  // =====================================================================
+  // VARIABLES UNITARIAS
+  // =====================================================================
+  textColorWhite: {
+    color: "white",
+  },
 
-    textColorBlack:{
-        color:"black",
-    },
-    
-    textColorCian:{
-        color:"#1ee3cf",
-    },
-    
-    textColorPurple:{
-        color:"#5a35b7",
-    },
-    
-    textBold:{
-        fontWeight:"bold",
-    },
+  textColorBlack: {
+    color: "black",
+  },
 
-    textLight:{
-        fontWeight:"normal"
-    },
+  textColorCian: {
+    color: "#1ee3cf",
+  },
 
-    fontSizeSixteen:{
-        fontSize: RFValue(13)
-    },
+  textColorPurple: {
+    color: "#5a35b7",
+  },
 
-    fontSizeEighteen:{
-        fontSize: RFValue(15),
-    },
-    
-    fontSizeTwenty:{
-        fontSize: RFValue(17)
-    },
-    
-    fontSizeTwentyThree:{
-        fontSize: RFValue(19)
-    },
-    
-    fontSizeTwentyFour:{
-        fontSize: RFValue(20)
-    },
-    
-    fontSizeTwentySix:{
-        fontSize: RFValue(22)
-    },
-    
-    fontSizeSeventyFive:{
-        fontSize: RFValue(63)
-    },
+  textBold: {
+    fontWeight: "bold",
+  },
 
-    backgroundRed:{
-        backgroundColor: "red"
-    },
+  textLight: {
+    fontWeight: "normal",
+  },
 
-    backgroundBlack:{
-        backgroundColor: "black"
-    },
-        
-    backgroundCian:{
-        backgroundColor: "#1ee3cf"
-    },
-        
-    backgroundPurpleDark:{
-        backgroundColor: "#110250"
-    },
-    
-    backgroundWhite:{
-        backgroundColor: "white"
-    },
-    
-    backgroundTurquoise:{
-        backgroundColor: "#70e0f9"
-    },
-    
-    
-       
+  fontSizeSixteen: {
+    fontSize: RFValue(13),
+  },
 
+  fontSizeEighteen: {
+    fontSize: RFValue(15),
+  },
 
-    // =====================================================================
-    // FIN VARIABLES UNITARIAS
-    // =====================================================================
+  fontSizeTwenty: {
+    fontSize: RFValue(17),
+  },
 
-    //Home
+  fontSizeTwentyThree: {
+    fontSize: RFValue(19),
+  },
 
-    //FinHome
+  fontSizeTwentyFour: {
+    fontSize: RFValue(20),
+  },
 
+  fontSizeTwentySix: {
+    fontSize: RFValue(22),
+  },
 
+  fontSizeSeventyFive: {
+    fontSize: RFValue(63),
+  },
+
+  backgroundRed: {
+    backgroundColor: "red",
+  },
+
+  backgroundBlack: {
+    backgroundColor: "black",
+  },
+
+  backgroundCian: {
+    backgroundColor: "#1ee3cf",
+  },
+
+  backgroundPurpleDark: {
+    backgroundColor: "#110250",
+  },
+
+  backgroundWhite: {
+    backgroundColor: "white",
+  },
+
+  backgroundTurquoise: {
+    backgroundColor: "#70e0f9",
+  },
+
+  // =====================================================================
+  // FIN VARIABLES UNITARIAS
+  // =====================================================================
+
+  //Splash
+
+  logoGenesys: {
+    height: RFValue(247),
+    marginTop: RFValue(176),
+    marginHorizontal: RFValue(50),
+    width: RFValue(247),
+  },
+
+  //FinSplash
+
+  //Home
+
+  //FinHome
 });
-
-
