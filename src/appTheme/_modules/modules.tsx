@@ -93,11 +93,26 @@ export const stylesM = StyleSheet.create({
 
   //Splash
 
-  logoGenesys: {
+  completo__logoGenesys: {
     height: RFValue(247),
     marginTop: RFValue(176),
     marginHorizontal: RFValue(50),
     width: RFValue(247),
+  },
+  completo__lettersVortex: {
+    height: RFValue(10),
+    bottom: 43,
+    position: "absolute",
+    width: RFValue(78),
+  },
+
+  completo__radiance: {
+    height: RFValue(182.9),
+    width: RFValue(219.5),
+    position: "relative",
+    bottom: 170,
+    left: 65,
+    opacity: 0.9,
   },
 
   //FinSplash
