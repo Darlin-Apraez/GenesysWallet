@@ -141,28 +141,28 @@ export const stylesM = StyleSheet.create({
 
   //FinSplash
 
-   //Home
-   boxImg:{
+  //Home
+  boxImg:{
     marginTop:76,
   },
   
   boxImg__image:{
-    width:192,
-    height:192,
+    width:RFValue(160),
+    height:RFValue(160.5),
     resizeMode:"contain",
   },
   
   boxImg__imageText:{
-    width:236,
-    height:42,
+    width:RFValue(197),
+    height:RFValue(35),
     resizeMode:"contain",
-    marginTop:26
+    marginTop:RFValue(21.5),
   },
 
   buttonHome:{ 
-    marginTop:283,
-    width:232,
-    height:47,
+    marginTop:RFValue(237),
+    width:RFValue(195),
+    height:RFValue(40),
   }
   //FinHome
 });
