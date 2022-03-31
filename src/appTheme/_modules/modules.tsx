@@ -91,6 +91,26 @@ export const stylesM = StyleSheet.create({
     backgroundColor: "#70e0f9",
   },
 
+  widthRectangle: {
+    width: RFValue(305),
+  },
+
+  radiusFive: {
+    borderRadius: 5,
+  },
+
+  radiusEight: {
+    borderRadius: 8,
+  },
+
+  radiusFifteen: {
+    borderRadius: 15,
+  },
+
+  radiusTwentyNine: {
+    borderRadius: 29,
+  },
+
   // =====================================================================
   // FIN VARIABLES UNITARIAS
   // =====================================================================
@@ -143,7 +163,6 @@ export const stylesM = StyleSheet.create({
     marginTop:283,
     width:232,
     height:47,
-    borderRadius:15
   }
   //FinHome
 });
