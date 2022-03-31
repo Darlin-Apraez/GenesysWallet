@@ -139,7 +139,7 @@ export const stylesM = StyleSheet.create({
     marginTop:26
   },
 
-  buttonCreate:{ 
+  buttonHome:{ 
     marginTop:283,
     width:232,
     height:47,

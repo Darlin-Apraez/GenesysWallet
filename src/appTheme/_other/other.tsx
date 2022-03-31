@@ -4,7 +4,8 @@ import {
 } from "react-native";
 
 export const stylesO = StyleSheet.create({
-    colorp:{
-        backgroundColor:"red"
+    buttonHome__height:{
+        height:22,
+        marginTop:40
     }
 });
