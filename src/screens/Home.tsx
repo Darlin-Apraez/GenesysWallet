@@ -19,9 +19,12 @@ const Home = () => {
           <Image style={stylesM.boxImg__image} source={require('../../assets/img/GENESYS-LOGO.png')} />
           <Image style={stylesM.boxImg__imageText} source={require('../../assets/img/GENESYSTIP.png')} />
         </View>
-        <TouchableOpacity activeOpacity={0.5} style={[stylesM.buttonCreate, stylesM.backgroundCian, stylesL.JustifyAlign,]}>
-        <Text style={[stylesM.textBold, stylesM.fontSizeThirtyFive]}>CREATE WALLET</Text>
-      </TouchableOpacity>
+        <TouchableOpacity activeOpacity={0.5} style={[stylesM.buttonHome, stylesM.radiusFifteen, stylesM.backgroundCian, stylesL.JustifyAlign,]}>
+          <Text style={[stylesM.textBold, stylesM.fontSizeThirtyFive]}>CREATE WALLET</Text>
+        </TouchableOpacity>
+        <TouchableOpacity activeOpacity={0.5} style={[stylesM.buttonHome, stylesO.buttonHome__height,stylesM.backgroundRed ]}>
+          <Text style={[stylesM.fontSizeTwentySix, stylesM.textColorCian]}>RESTORE WALLET</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   )
