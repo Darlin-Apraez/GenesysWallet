@@ -8,7 +8,7 @@ import {
 import { RFValue } from "react-native-responsive-fontsize";
 
 export const stylesM = StyleSheet.create({
-  // =====================================================================
+   // =====================================================================
   // VARIABLES UNITARIAS
   // =====================================================================
   textColorWhite: {
@@ -53,6 +53,10 @@ export const stylesM = StyleSheet.create({
 
   fontSizeTwentyFour: {
     fontSize: RFValue(20),
+  },
+
+  fontSizeThirtyFive:{
+    fontSize:RFValue(28)
   },
 
   fontSizeTwentySix: {
@@ -117,7 +121,29 @@ export const stylesM = StyleSheet.create({
 
   //FinSplash
 
-  //Home
+   //Home
+   boxImg:{
+    marginTop:76,
+  },
+  
+  boxImg__image:{
+    width:192,
+    height:192,
+    resizeMode:"contain",
+  },
+  
+  boxImg__imageText:{
+    width:236,
+    height:42,
+    resizeMode:"contain",
+    marginTop:26
+  },
 
+  buttonCreate:{ 
+    marginTop:283,
+    width:232,
+    height:47,
+    borderRadius:15
+  }
   //FinHome
 });
