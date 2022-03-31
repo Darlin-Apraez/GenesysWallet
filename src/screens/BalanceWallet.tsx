@@ -9,7 +9,7 @@ import { View, Text, SafeAreaView} from 'react-native'
 import BarStatus from "../components/BarStatus";
 import React from 'react'
 
-const BalanceWallet = () => {
+const BalanceWallet = ({ navigation }: { navigation: any }) => {
   return (
     <SafeAreaView style={stylesB.body}>
       <BarStatus/>

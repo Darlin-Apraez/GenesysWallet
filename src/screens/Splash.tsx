@@ -10,7 +10,14 @@ import BarStatus from "../components/BarStatus";
 import React from "react";
 import * as Animatable from "react-native-animatable";
 
-const Splash = () => {
+const Splash = ({ navigation }: { navigation: any }) => {
+  function navegar() {
+    navigation.navigate("Home")
+  }
+
+  setTimeout(() => {
+    navegar()
+  }, 2500);
   return (
     <SafeAreaView style={stylesB.body}>
       <BarStatus />
@@ -22,16 +29,16 @@ const Splash = () => {
         >
           <Image
             style={stylesM.completo__logoGenesys}
-            source={require("./../img/GENESYS-LOGO.png")}
+            source={require("../../assets/img/GENESYS-LOGO.png")}
           />
           <Image
             style={stylesM.completo__radiance}
-            source={require("./../img/radianceSplash.png")}
+            source={require("../../assets/img/radianceSplash.png")}
           />
         </Animatable.View>
         <Image
           style={stylesM.completo__lettersVortex}
-          source={require("./../img/VORTEX.png")}
+          source={require("../../assets/img/VORTEX.png")}
         />
       </View>
     </SafeAreaView>

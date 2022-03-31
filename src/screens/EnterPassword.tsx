@@ -9,7 +9,7 @@ import { View, Text, SafeAreaView} from 'react-native'
 import BarStatus from "../components/BarStatus";
 import React from 'react'
 
-const EnterPassword = () => {
+const EnterPassword = ({ navigation }: { navigation: any }) => {
   return (
     <SafeAreaView style={stylesB.body}>
       <BarStatus/>
