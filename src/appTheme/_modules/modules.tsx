@@ -8,7 +8,7 @@ import {
 import { RFValue } from "react-native-responsive-fontsize";
 
 export const stylesM = StyleSheet.create({
-   // =====================================================================
+  // =====================================================================
   // VARIABLES UNITARIAS
   // =====================================================================
   textColorWhite: {
@@ -55,6 +55,10 @@ export const stylesM = StyleSheet.create({
     fontSize: RFValue(20),
   },
 
+  fontSizeThirtyFive: {
+    fontSize: RFValue(29),
+  },
+        
   fontSizeTwentySix: {
     fontSize: RFValue(22),
   },
@@ -81,7 +85,7 @@ export const stylesM = StyleSheet.create({
   },
 
   backgroundPurpleDark: {
-    backgroundColor: "#110250",
+    backgroundColor: "#120250",
   },
 
   backgroundWhite: {
@@ -90,6 +94,10 @@ export const stylesM = StyleSheet.create({
 
   backgroundTurquoise: {
     backgroundColor: "#70e0f9",
+  },
+
+  backgroundCianBox: {
+    backgroundColor: "#70FDEF",
   },
 
   widthRectangle: {
@@ -110,6 +118,18 @@ export const stylesM = StyleSheet.create({
 
   radiusTwentyNine: {
     borderRadius: 29,
+  },
+
+  topSeventeen: {
+    top: 17,
+  },
+
+  topRow: {
+    top: 50,
+  },
+
+  textAlignCenter: {
+    textAlign: "center",
   },
 
   // =====================================================================
@@ -164,6 +184,99 @@ export const stylesM = StyleSheet.create({
     marginTop:RFValue(237),
     width:RFValue(195),
     height:RFValue(40),
-  }
+  },
+ 
   //FinHome
+
+  //VerifyMnemonic
+  boxTitle: {
+    marginTop: 80,
+    marginLeft: 15,
+  },
+
+  boxTitle_subtitle: {
+    marginTop: 17,
+  },
+
+  boxGradient: {
+    height: 304,
+    width: 326,
+    marginTop: 40,
+    borderWidth: 2,
+    borderRadius: 5,
+  },
+
+  boxGradient_boxBlack: {
+    height: 296,
+    width: 318.5,
+    top: 2,
+    left: 2,
+    borderRadius: 5,
+  },
+
+  boxWords: {
+    height: 110,
+    top: 55,
+    width: 322,
+    marginLeft: 2,
+  },
+
+  boxWords_rowOne: {
+    width: 67,
+    height: 110,
+    //backgroundColor: "purple",
+  },
+
+  boxWords_rowOne_boxOne: {
+    height: 21,
+    width: 67,
+    borderRadius: 3,
+  },
+
+  boxWords_rowTwo: {
+    width: 67,
+    height: 110,
+    left: 85,
+    top: -110,
+    //backgroundColor: "yellow",
+  },
+
+  boxWords_rowTwo_boxOne: {
+    height: 21,
+    width: 67,
+    borderRadius: 3,
+  },
+
+  boxWords_rowThree: {
+    width: 67,
+    height: 110,
+    left: 170,
+    top: -220,
+    //backgroundColor: "blue",
+  },
+
+  boxWords_rowThree_boxOne: {
+    height: 21,
+    width: 67,
+    borderRadius: 3,
+  },
+
+  boxWords_rowFour: {
+    width: 67,
+    height: 110,
+    left: 255,
+    top: -330,
+    //backgroundColor: "green",
+  },
+
+  boxWords_rowFour_boxOne: {
+    height: 21,
+    width: 67,
+    borderRadius: 3,
+  },
+
+  boton_top: {
+    top: 120,
+  },
+  //FinVerifyMnemonic
 });
