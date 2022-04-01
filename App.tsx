@@ -1,4 +1,3 @@
-
 import { SafeAreaView, Text, View, StatusBar } from "react-native";
 import React from "react";
 
@@ -7,7 +6,7 @@ import {
   createStackNavigator,
   CardStyleInterpolators,
 } from "@react-navigation/stack";
-import 'react-native-gesture-handler';
+import "react-native-gesture-handler";
 
 import BalanceWallet from "./src/screens/BalanceWallet";
 import ConfirmPassword from "./src/screens/ConfirmPassword";
@@ -29,7 +28,7 @@ export default function App() {
           cardStyleInterpolator: CardStyleInterpolators.forFadeFromCenter,
         }}
       >
-        <Stack.Screen
+        {/* <Stack.Screen
           name="Splash"
           component={Splash}
           options={{ headerShown: false }}
@@ -48,7 +47,7 @@ export default function App() {
           name="WriteMnemonic"
           component={WriteMnemonic}
           options={{ headerShown: false }}
-        />
+        /> */}
         <Stack.Screen
           name="VerifyMnemonic"
           component={VerifyMnemonic}
