@@ -56,11 +56,16 @@ export const stylesM = StyleSheet.create({
   },
 
   fontSizeThirtyFive: {
-    fontSize: RFValue(28),
+    fontSize: RFValue(29),
   },
-
+        
   fontSizeTwentySix: {
     fontSize: RFValue(22),
+  },
+
+  fontSizeTwentySeven:{
+    // fontSize:RFValue(28)
+    fontSize:RFValue(23)
   },
 
   fontSizeSeventyFive: {
@@ -158,28 +163,29 @@ export const stylesM = StyleSheet.create({
   //FinSplash
 
   //Home
-  boxImg: {
-    marginTop: 76,
+  boxImg:{
+    marginTop:RFValue(63.5),
+  },
+  
+  boxImg__image:{
+    width:RFValue(160),
+    height:RFValue(160.5),
+    resizeMode:"contain",
+  },
+  
+  boxImg__imageText:{
+    width:RFValue(197),
+    height:RFValue(35),
+    resizeMode:"contain",
+    marginTop:RFValue(21.5),
   },
 
-  boxImg__image: {
-    width: 192,
-    height: 192,
-    resizeMode: "contain",
+  buttonHome:{ 
+    marginTop:RFValue(237),
+    width:RFValue(195),
+    height:RFValue(40),
   },
-
-  boxImg__imageText: {
-    width: 236,
-    height: 42,
-    resizeMode: "contain",
-    marginTop: 26,
-  },
-
-  buttonHome: {
-    marginTop: 283,
-    width: 232,
-    height: 47,
-  },
+ 
   //FinHome
 
   //VerifyMnemonic
