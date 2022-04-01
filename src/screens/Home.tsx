@@ -10,7 +10,7 @@ import BarStatus from "../components/BarStatus";
 import React from 'react'
 import { TouchableOpacity } from "react-native-gesture-handler";
 
-const Home = () => {
+const Home = ({ navigation }: { navigation: any }) => {
   return (
     <SafeAreaView style={stylesB.body}>
       <BarStatus/>
@@ -20,8 +20,8 @@ const Home = () => {
           <Image style={stylesM.boxImg__imageText} source={require('../../assets/img/GENESYSTIP.png')} />
         </View>
 
-        <TouchableOpacity activeOpacity={0.5} style={[stylesM.buttonHome, stylesM.radiusFifteen, stylesM.backgroundCian, stylesL.JustifyAlign,]}>
-          <Text style={[stylesM.textBold, stylesM.fontSizeThirtyFive]}>CREATE WALLET</Text>
+        <TouchableOpacity activeOpacity={0.5} style={[stylesM.buttonHome, stylesM.radiusFifteen, stylesM.backgroundCian, stylesL.JustifyAlign,]} onPress={() => navigation.navigate("Slider")}>
+          <Text style={[stylesM.textBold, stylesM.fontSizeTwentySeven]}>CREATE WALLET</Text>
         </TouchableOpacity>
 
         <TouchableOpacity activeOpacity={0.5} style={[stylesM.buttonHome, stylesO.buttonHome__height, stylesL.JustifyAlign ]}>

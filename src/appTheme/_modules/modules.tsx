@@ -55,12 +55,13 @@ export const stylesM = StyleSheet.create({
     fontSize: RFValue(20),
   },
 
-  fontSizeThirtyFive:{
-    fontSize:RFValue(28)
-  },
-
   fontSizeTwentySix: {
     fontSize: RFValue(22),
+  },
+
+  fontSizeTwentySeven:{
+    // fontSize:RFValue(28)
+    fontSize:RFValue(23)
   },
 
   fontSizeSeventyFive: {
@@ -143,7 +144,7 @@ export const stylesM = StyleSheet.create({
 
   //Home
   boxImg:{
-    marginTop:76,
+    marginTop:RFValue(63.5),
   },
   
   boxImg__image:{
